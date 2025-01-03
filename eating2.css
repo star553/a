@@ -56,19 +56,19 @@
 	color:#fff;
 }
 .slides1{
-	background: url(img/eating/%E9%BE%9F%E8%8B%93%E8%86%8F.jpg);
+	background: url(%E9%BE%9F%E8%8B%93%E8%86%8F.jpg);
 	background-size:cover;
 }
 .slides2{
-	background:url(img/eating/%E5%86%B0%E6%B3%89%E8%B1%86%E6%B5%86.jpg);
+	background:url(%E5%86%B0%E6%B3%89%E8%B1%86%E6%B5%86.jpg);
 	background-size:cover;
 }
 .slides3{
-	background: url(img/eating/%E7%BA%B8%E5%8C%85%E9%B8%A1.png);
+	background: url(%E7%BA%B8%E5%8C%85%E9%B8%A1.png);
 	background-size:cover;
 }
 .slides4{
-	background: url(img/eating/%E9%92%B5%E4%BB%94%E7%B3%95.png);
+	background: url(%E9%92%B5%E4%BB%94%E7%B3%95.png);
 	background-size:cover;
 }
 
