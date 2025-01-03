@@ -1,0 +1,76 @@
+@charset "utf-8";
+<style type="text/css">
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family:"华文行楷";
+}
+
+.container{
+	width:100%;
+	height:100vh;
+	overflow-y:scroll;
+	scroll-snap-type:y mandatory;
+}
+.wrapper{
+	width: 900px;
+	background: transparent;
+	border: 2px solid rgba(255,255,255,.7);
+	backdrop-filter: blur(20px);
+	box-shadow: 0 0 10px rgba(0,0,0,.9);
+	color: #FFF;
+	border-radius: 10px;
+	float: left;
+	padding-top: 30px;
+	padding-right: 40px;
+	padding-bottom: 30px;
+	padding-left: 40px;
+}
+.slides{
+	width:100%;
+	height:100vh;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	gap:50px;
+	color:#fff;
+	scroll-snap-align:start;
+}
+.slides img{
+	width:350px;
+}
+.slides h2{
+	font-size:60px;
+	font-weight:600;
+	max-width:650px;
+}
+.left{
+	float:left;
+	margin-right:20px;
+}
+.slides h3{
+	font-family: "宋体";
+	font-size: 30px;
+	line-height: 60px;
+	color:#fff;
+}
+.slides1{
+	background: url(img/eating/%E9%BE%9F%E8%8B%93%E8%86%8F.jpg);
+	background-size:cover;
+}
+.slides2{
+	background:url(img/eating/%E5%86%B0%E6%B3%89%E8%B1%86%E6%B5%86.jpg);
+	background-size:cover;
+}
+.slides3{
+	background: url(img/eating/%E7%BA%B8%E5%8C%85%E9%B8%A1.png);
+	background-size:cover;
+}
+.slides4{
+	background: url(img/eating/%E9%92%B5%E4%BB%94%E7%B3%95.png);
+	background-size:cover;
+}
+
+</style>/* CSS Document */
+

@@ -1,0 +1,99 @@
+@charset "utf-8";
+<style type="text/css">
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family:"华文行楷";
+}
+
+.container{
+	width:100%;
+	height:100vh;
+	overflow-y:scroll;
+	scroll-snap-type:y mandatory;
+}
+.wrapper{
+	width: 900px;
+	background: transparent;
+	border: 2px solid rgba(255,255,255,.2);
+	backdrop-filter: blur(20px);
+	box-shadow: 0 0 10px rgba(0,0,0,.7);
+	color: #FFF;
+	border-radius: 10px;
+	float: left;
+	padding-top: 30px;
+	padding-right: 40px;
+	padding-bottom: 30px;
+	padding-left: 40px;
+}
+.slides{
+	width:100%;
+	height:100vh;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	gap:50px;
+	color:#fff;
+	scroll-snap-align:start;
+}
+.slides img{
+	width:350px;
+}
+.slides h2{
+	font-size:60px;
+	font-weight:600;
+	max-width:650px;
+}
+.left{
+	float:left;
+	margin-right:20px;
+}
+.slides h3{
+	font-family: "宋体";
+	font-size: 30px;
+	line-height: 60px;
+	color: #FF0;
+}
+	
+/* CSS Document */
+.slides1{
+	background: url(img/touring/%E4%B8%AD%E5%9B%BD%E9%AA%91%E6%A5%BC%E5%9F%8E.jpg);
+	background-size:cover;
+}
+.slides2{
+	background: url(img/touring/%E6%A2%A7%E5%B7%9E%E9%BE%99%E6%AF%8D%E5%BA%99.jpg);
+	background-size:cover;
+}
+.slides3{
+	background: url(img/touring/%E7%99%BD%E4%BA%91%E5%B1%B1.png);
+	background-size:cover;
+}
+.slides4{
+	background: url(img/touring/%E5%A4%A9%E9%BE%99%E9%A1%B6%E5%9B%BD%E5%AE%B6%E5%85%AC%E5%9B%AD.jpg);
+	background-size:cover;
+}
+.slides5{
+	background: url(img/touring/%E6%B2%B3%E6%BB%A8%E5%85%AC%E5%9B%AD.jpg);
+	background-size:cover;
+}
+.slides6{
+	background: url(img/touring/%E6%98%8E%E6%9C%9D%E4%B8%A4%E5%B9%BF%E6%80%BB%E7%9D%A3%E5%BA%9C.jpg);
+	background-size:cover;
+}
+.slides7{
+	background: url(img/touring/%E4%B8%AD%E5%B1%B1%E5%85%AC%E5%9B%AD.jpg);
+	background-size:cover;
+}
+.slides8{
+	background: url(img/touring/%E7%9F%B3%E8%A1%A8%E5%B1%B1.jpg);
+	background-size:cover;
+}
+.slides9{
+	background: url(img/touring/%E5%85%AD%E5%A0%A1%E8%8C%B6%E9%A6%99.jpg);
+	background-size:cover;
+}
+.slides10{
+	background: url(img/touring/%E5%A4%A9%E4%B9%A6%E5%B3%A1%E8%B0%B7.jpg);
+	background-size:cover;
+}
