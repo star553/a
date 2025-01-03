@@ -55,15 +55,15 @@
 	color:#fff;
 }
 .slides1{
-	background: url(img/culture/%E5%B2%AD%E5%8D%97%E5%8F%A4%E9%9F%B5.jpg);
+	background: url(%E5%B2%AD%E5%8D%97%E5%8F%A4%E9%9F%B5.jpg);
 	background-size:cover;
 }
 .slides2{
-	background: url(img/culture/%E8%A5%BF%E6%B1%9F%E6%98%8E%E7%8F%A0.jpg);
+	background: url(%E8%A5%BF%E6%B1%9F%E6%98%8E%E7%8F%A0.jpg);
 	background-size:cover;
 }
 .slides3{
-	background: url(img/culture/%E7%B2%A4%E5%89%A7%E4%B9%8B%E4%B9%A1.jpg);
+	background: url(%E7%B2%A4%E5%89%A7%E4%B9%8B%E4%B9%A1.jpg);
 	background-size:cover;
 }/* CSS Document */
 

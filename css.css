@@ -10,7 +10,7 @@
 	min-height:100vh;
 	width:100%;
 	background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),
-	url(%E5%9B%BE%E7%89%87/%E8%A1%97%E5%A4%B4.jpg);
+	url(%E8%A1%97%E5%A4%B4.jpg);
     background-size:cover;
     background-position:center;
 }
@@ -140,7 +140,7 @@
 .cta{
 	margin:80px 0;
 	background-image:linear-gradient(to right, #3f2321,transparent),
-    url(%E5%9B%BE%E7%89%87/5dbe4de8f8037a9e6dce595498cae11.jpg);
+    url(5dbe4de8f8037a9e6dce595498cae11.jpg);
 	background-size:cover;
 	background-position:center;
 	border-radius:10px;
